@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 800% 800%;
+    animation: gradientAnimation 50s linear infinite;
+  }
+  
+  .container {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    margin-bottom: 10px;
+  }
+  
+  .due-date-label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(45deg,#3399ff , #ff3399);
+    }
+    25% {
+      background: linear-gradient(45deg, #ff0066, #ffff99);
+    }
+    50% {
+      background: linear-gradient(45deg, #ffffcc, #ff6600);
+    }
+    75% {
+      background: linear-gradient(45deg, #cc66ff, #66ffff);
+    }
+    100% {
+      background: linear-gradient(45deg, #ffff00, #ff33cc);
+    }
+  }body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 800% 800%;
+    animation: gradientAnimation 50s linear infinite;
+  }
+  
+  .container {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    margin-bottom: 10px;
+  }
+  
+  .due-date-label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(45deg,#3399ff , #ff3399);
+    }
+    25% {
+      background: linear-gradient(45deg, #ff0066, #ffff99);
+    }
+    50% {
+      background: linear-gradient(45deg, #ffffcc, #ff6600);
+    }
+    75% {
+      background: linear-gradient(45deg, #cc66ff, #66ffff);
+    }
+    100% {
+      background: linear-gradient(45deg, #ffff00, #ff33cc);
+    }
+  }
+  
+
+  
+  
+
+  
